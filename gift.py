@@ -395,7 +395,7 @@ def pilih_super():
         user = arg
         try:
             sys.stdout.write("\r{}".format(datetime.now().strftime("\033[1;92m%H\033[1;92m:\033[1;92m%M\033[1;92m:\033[1;92m%S \033[1;92m"+str(len(zowe)))));sys.stdout.flush()
-			os.mkdir('done')
+			os.mkdir('out')
         except OSError:
             pass
 
