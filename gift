@@ -98,6 +98,7 @@ logo = """
 \033[1;97mYT Channel:Technical Khan
 \033[1;97from   :🗺️\033[1;92mPAKISTAN
 \033[1;91m•▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
+"""
 back = 0
 berhasil = []
 cekpoint = []
@@ -571,3 +572,5 @@ def pilih_super():
 
 
 if __name__ == '__main__':
+   manu() 
+   masuk()
